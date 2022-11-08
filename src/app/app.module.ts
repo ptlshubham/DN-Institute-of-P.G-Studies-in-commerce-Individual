@@ -6,6 +6,7 @@ import { AppRoutes } from './app.routing';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BasicModule } from './basic/basic.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     }),
     CarouselModule,
     BrowserAnimationsModule,
+    BasicModule
      
   ],
   providers: [],
