@@ -8,6 +8,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BasicModule } from './basic/basic.module';
 import { InfrastructureModule } from './infrastructure/infrastructure.module';
+import { DepartmentModule } from './department/department.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { InfrastructureModule } from './infrastructure/infrastructure.module';
     CarouselModule,
     BrowserAnimationsModule,
     BasicModule,
-    InfrastructureModule
+    InfrastructureModule,
+    DepartmentModule
      
   ],
   providers: [],

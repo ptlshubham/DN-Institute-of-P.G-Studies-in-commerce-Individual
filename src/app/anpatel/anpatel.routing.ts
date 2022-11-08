@@ -12,16 +12,10 @@ export const AnPatelRoutes: Routes = [{
     loadChildren: () => import('./ancourse/ancourse.module').then(m => m.AncourseModule)
 },
 
-{
-    path: 'department',
-    loadChildren: () => import('./andepartment/andepartment.module').then(m => m.AndepartmentModule)
-},
+
 {
     path: 'more',
     loadChildren: () => import('./anmore/anmore.module').then(m => m.AnmoreModule)
 },
-{
-    path: 'gallery',
-    loadChildren: () => import('./angallery/angallery.module').then(m => m.AngalleryModule)
-},
+
 ];

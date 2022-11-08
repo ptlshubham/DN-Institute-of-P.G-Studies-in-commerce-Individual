@@ -4,7 +4,7 @@ import { Routes } from '@angular/router';
 export const AppRoutes: Routes = [
     {
         path: '',
-        redirectTo: 'main/home',
+        redirectTo: 'home/main',
         pathMatch: 'full',
     },
     {
@@ -22,6 +22,14 @@ export const AppRoutes: Routes = [
     {
         path: 'infra',
         loadChildren: () => import('./infrastructure/infrastructure.module').then(m => m.InfrastructureModule)
+    },
+    {
+        path: 'department',
+        loadChildren: () => import('./department/department.module').then(m => m.DepartmentModule)
+    },
+    {
+        path: 'gallery',
+        loadChildren: () => import('./gallery/gallery.module').then(m => m.GalleryModule)
     },
 
 
