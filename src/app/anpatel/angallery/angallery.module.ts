@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { AnPhotosComponent } from './an-photos/an-photos.component';
 import { AnGalleryRoutes } from './angallery.routing';
 import { RouterModule } from '@angular/router';
-import { AnhomeModule } from '../anhome/anhome.module';
 import { AnsharedModule } from '../anshared/anshared.module';
 
 
@@ -15,7 +14,7 @@ import { AnsharedModule } from '../anshared/anshared.module';
   imports: [
     CommonModule,
     RouterModule.forChild(AnGalleryRoutes),
-    AnhomeModule,
+    // AnhomeModule,
     AnsharedModule
   ]
 })

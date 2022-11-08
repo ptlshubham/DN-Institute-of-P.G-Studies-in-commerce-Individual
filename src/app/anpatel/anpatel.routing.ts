@@ -5,10 +5,7 @@ export const AnPatelRoutes: Routes = [{
     redirectTo: 'anhome/anmain/',
     pathMatch: 'full',
 },
-{
-    path: 'home',
-    loadChildren: () => import('./anhome/anhome.module').then(m => m.AnhomeModule)
-},
+
 
 {
     path: 'course',

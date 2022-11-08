@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-an-statistics-incrementor',
-  templateUrl: './an-statistics-incrementor.component.html',
-  styleUrls: ['./an-statistics-incrementor.component.css']
+  selector: 'app-statistics-incrementor',
+  templateUrl: './statistics-incrementor.component.html',
+  styleUrls: ['./statistics-incrementor.component.css']
 })
-export class AnStatisticsIncrementorComponent implements OnInit {
+export class StatisticsIncrementorComponent implements OnInit {
   projectCount: number = 0;
   projectCount1: number = 0;
   projectCount2: number = 0;
@@ -39,5 +39,6 @@ export class AnStatisticsIncrementorComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }

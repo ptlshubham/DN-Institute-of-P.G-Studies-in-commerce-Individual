@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AnLeftImageTextComponent } from './an-left-image-text.component';
+import { MainComponent } from './main.component';
 
-describe('AnLeftImageTextComponent', () => {
-  let component: AnLeftImageTextComponent;
-  let fixture: ComponentFixture<AnLeftImageTextComponent>;
+describe('MainComponent', () => {
+  let component: MainComponent;
+  let fixture: ComponentFixture<MainComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AnLeftImageTextComponent ]
+      declarations: [ MainComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AnLeftImageTextComponent);
+    fixture = TestBed.createComponent(MainComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AnsharedModule } from './anshared/anshared.module';
-import { AnhomeModule } from './anhome/anhome.module';
 import { RouterModule } from '@angular/router';
 import { AnPatelRoutes } from './anpatel.routing';
 import { AncourseModule } from './ancourse/ancourse.module';
@@ -17,7 +16,7 @@ import { AnmoreModule } from './anmore/anmore.module';
   imports: [
     CommonModule,
     AnsharedModule,
-    AnhomeModule,
+    // AnhomeModule,
     AncourseModule,
     AninfrastructureModule,
     AnmoreModule,
