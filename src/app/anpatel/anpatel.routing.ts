@@ -11,10 +11,7 @@ export const AnPatelRoutes: Routes = [{
     path: 'course',
     loadChildren: () => import('./ancourse/ancourse.module').then(m => m.AncourseModule)
 },
-{
-    path: 'inf',
-    loadChildren: () => import('./aninfrastructure/aninfrastructure.module').then(m => m.AninfrastructureModule)
-},
+
 {
     path: 'department',
     loadChildren: () => import('./andepartment/andepartment.module').then(m => m.AndepartmentModule)

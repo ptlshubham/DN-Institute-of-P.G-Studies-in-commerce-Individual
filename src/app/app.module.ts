@@ -7,10 +7,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BasicModule } from './basic/basic.module';
+import { InfrastructureModule } from './infrastructure/infrastructure.module';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -20,7 +22,8 @@ import { BasicModule } from './basic/basic.module';
     }),
     CarouselModule,
     BrowserAnimationsModule,
-    BasicModule
+    BasicModule,
+    InfrastructureModule
      
   ],
   providers: [],

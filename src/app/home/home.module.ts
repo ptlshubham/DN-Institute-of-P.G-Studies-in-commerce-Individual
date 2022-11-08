@@ -35,6 +35,17 @@ import { StatisticsIncrementorComponent } from './statistics-incrementor/statist
     RouterModule.forChild(HomeRoutes),
     NgbModule,
     CarouselModule
+  ],
+  exports:[
+    MainComponent,
+    HomeBannerComponent,
+    HomeSliderComponent,
+    LeftImageTextComponent,
+    NewsSectionComponent,
+    RightImageTextComponent,
+    SectionCoursesComponent,
+    SectionMessageComponent,
+    StatisticsIncrementorComponent
   ]
 })
 export class HomeModule { }

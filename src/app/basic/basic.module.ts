@@ -8,6 +8,7 @@ import { TrustComponent } from './trust/trust.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { BasicRoutes } from './basic.routing';
+import { HomeModule } from '../home/home.module';
 
 
 
@@ -22,7 +23,8 @@ import { BasicRoutes } from './basic.routing';
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule.forChild(BasicRoutes)
+    RouterModule.forChild(BasicRoutes),
+    HomeModule
 
   ]
 })

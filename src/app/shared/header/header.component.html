@@ -70,12 +70,14 @@
                         <ul class="topbar-contact">
                             <li>
                                 <i class="flaticon-email"></i>
+                                <a href="mailto:dnipgs@cesociety.in" style="font-size:12px !important;">
+                                    dnipgs@cesociety.in</a>,
                                 <a href="mailto:principal@sanppgi.ac.in" style="font-size:12px !important;">
-                                    principal@sanppgi.ac.in,</a>
+                                    shridnpgs@gmail.com,</a>
                             </li>
                             <li>
                                 <i class="flaticon-phone"></i>
-                                <a href="tel:02692-267404" style="font-size:12px !important;"> (02692) 267404</a>
+                                <a href="tel:02692-252804" style="font-size:12px !important;"> (02692) 252804</a>
 
                             </li>
                         </ul>
@@ -100,8 +102,8 @@
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="logo-cat-wrap">
                         <div class="logo-part">
-                            <a routerLink="/anpatel/home/main" routerLinkActive="active">
-                                <img src="assets/images/anpatel/logo/ANPatel.png" alt="">
+                            <a routerLink="/home/main" routerLinkActive="active">
+                                <img src="assets/images/logo/ANPatel.png" alt="">
                             </a>
                         </div>
                     </div>
@@ -160,7 +162,7 @@
                 <ul class="nav-menu" style="padding: 25px!important;">
                     <li class="btn-group">
                         <a class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" routerLink="/anpatel/home/main" routerLinkActive="active">Home</a>
+                            aria-expanded="false" routerLink="/home/main" routerLinkActive="active">Home</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item">CES Home</a> </li>
                         </ul>
@@ -169,8 +171,14 @@
                         <a class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">About Us</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" routerLink="/anpatel/basic/about" routerLinkActive="active">History</a> </li>
-                            <li><a class="dropdown-item" routerLink="/anpatel/basic/trust" routerLinkActive="active">The Trust</a> </li>
+                            <li><a class="dropdown-item" routerLink="/basic/about" routerLinkActive="active">History</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" routerLink="/infra/facilities"
+                                    routerLinkActive="active">Facilities & Activities</a>
+                            </li>
+                            <li><a class="dropdown-item" routerLink="/basic/trust" routerLinkActive="active">The
+                                    Trust</a> </li>
                         </ul>
                     </li>
                     <li class="btn-group">
@@ -178,7 +186,8 @@
                             aria-expanded="false">Gallery/Media</a>
 
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" routerLink="/anpatel/gallery/photos" routerLinkActive="active">Photos</a> </li>
+                            <li><a class="dropdown-item" routerLink="/gallery/photos"
+                                    routerLinkActive="active">Photos</a> </li>
                             <!-- <li><a class="dropdown-item">Photos</a> </li> -->
                             <li><a class="dropdown-item">Documentary Film</a> </li>
                             <li><a class="dropdown-item">Our Magazine Balmitra</a> </li>
@@ -186,8 +195,8 @@
                     </li>
 
                     <li class="btn-group">
-                        <a class="btn btn-lg" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false" routerLink="/anpatel/inf/infra" routerLinkActive="active">Infrastructure</a>
+                        <a class="btn btn-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                            routerLink="/infra/facilities" routerLinkActive="active">Facilities & Activities</a>
 
                     </li>
 
@@ -195,24 +204,30 @@
                         <a class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Course</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" routerLink="/anpatel/course/science" routerLinkActive="active">Science</a> </li>
-                            <li><a class="dropdown-item" routerLink="/anpatel/course/para" routerLinkActive="active">Paramedical</a> </li>
+                            <li><a class="dropdown-item" routerLink="/course/science"
+                                    routerLinkActive="active">Science</a> </li>
+                            <li><a class="dropdown-item" routerLink="/course/para"
+                                    routerLinkActive="active">Paramedical</a> </li>
                         </ul>
                     </li>
                     <li class="btn-group">
-                        <a class="btn btn-lg" routerLink="/anpatel/basic/contact" routerLinkActive="active">Contact Us</a>
+                        <a class="btn btn-lg" routerLink="/basic/contact" routerLinkActive="active">Contact Us</a>
                     </li>
                     <li class="btn-group">
                         <a class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false">More</a>
                         <ul class="dropdown-menu">
                             <!-- <li><a class="dropdown-item" routerLink="" routerLinkActive="active">Department</a> </li> -->
-                            <li><a class="dropdown-item" routerLink="/anpatel/more/result" routerLinkActive="active">Results</a> </li>
-                            <li><a class="dropdown-item" routerLink="/anpatel/basic/committee" routerLinkActive="active">Committee</a> </li>
+                            <li><a class="dropdown-item" routerLink="/more/result" routerLinkActive="active">Results</a>
+                            </li>
+                            <li><a class="dropdown-item" routerLink="/basic/committee"
+                                    routerLinkActive="active">Committee</a> </li>
                             <li><a class="dropdown-item" routerLink="" routerLinkActive="active">Student Corner</a>
                             </li>
-                            <li><a class="dropdown-item" routerLink="" routerLinkActive="active" (click)="openPopup1()">Form</a> </li>
-                            <li><a class="dropdown-item" routerLink="" routerLinkActive="active" (click)="openPopup2()">Annual Reports</a>
+                            <li><a class="dropdown-item" routerLink="" routerLinkActive="active"
+                                    (click)="openPopup1()">Form</a> </li>
+                            <li><a class="dropdown-item" routerLink="" routerLinkActive="active"
+                                    (click)="openPopup2()">Annual Reports</a>
                             </li>
                         </ul>
                     </li>
@@ -235,7 +250,7 @@
                                     <ul class="nav-menu">
 
                                         <li class="menu-item-has-children">
-                                            <a routerLink="/anpatel/home/main" routerLinkActive="active">Home</a>
+                                            <a routerLink="/home/main" routerLinkActive="active">Home</a>
                                             <ul class="sub-menu">
                                                 <li><a routerLink="" routerLinkActive="active">CES Home</a>
                                                 </li>
@@ -244,9 +259,13 @@
                                         <li class="menu-item-has-children">
                                             <a routerLink="" routerLinkActive="active">About Us</a>
                                             <ul class="sub-menu">
-                                                <li><a routerLink="/anpatel/basic/about" routerLinkActive="active">History</a>
+                                                <li><a routerLink="/basic/about" routerLinkActive="active">History</a>
                                                 </li>
-                                                <li><a routerLink="/anpatel/basic/trust" routerLinkActive="active">The Trust</a>
+                                                <li>
+                                                    <a  routerLink="/infra/facilities"
+                                                        routerLinkActive="active">Facilities & Activities</a>
+                                                </li>
+                                                <li><a routerLink="/basic/trust" routerLinkActive="active">The Trust</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -254,7 +273,8 @@
                                             <a href="#">Gallery/Media</a>
 
                                             <ul class="sub-menu">
-                                                <li><a routerLink="/anpatel/gallery/photos" routerLinkActive="active">Photos</a> </li>
+                                                <li><a routerLink="/gallery/photos" routerLinkActive="active">Photos</a>
+                                                </li>
                                                 <!-- <li><a href="#">Photos</a> </li> -->
                                                 <li><a href="#">Documentary Film</a> </li>
                                                 <li><a href="#">Our Magazine Balmitra</a> </li>
@@ -262,27 +282,29 @@
                                         </li>
 
                                         <li class="menu-item">
-                                            <a routerLink="/anpatel/inf/infra" routerLinkActive="active">Infrastructure</a>
+                                            <a routerLink="/infra/facilities" routerLinkActive="active">Facilities & Activities</a>
                                         </li>
 
                                         <li class="menu-item-has-children">
                                             <a href="">Course</a>
                                             <ul class="sub-menu">
-                                                <li><a routerLink="/anpatel/course/science" routerLinkActive="active">Science</a> </li>
-                                                <li><a routerLink="/anpatel/course/para" routerLinkActive="active">Paramedical</a> </li>
+                                                <li><a routerLink="/course/science"
+                                                        routerLinkActive="active">Science</a> </li>
+                                                <li><a routerLink="/course/para"
+                                                        routerLinkActive="active">Paramedical</a> </li>
                                             </ul>
                                         </li>
                                         <li class="">
-                                            <a routerLink="/anpatel/basic/contact" routerLinkActive="active">Contact Us</a>
+                                            <a routerLink="/basic/contact" routerLinkActive="active">Contact Us</a>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a routerLink="" routerLinkActive="active">More</a>
                                             <ul class="sub-menu">
                                                 <!-- <li><a routerLink="" routerLinkActive="active">Department</a> </li> -->
-                                                <li><a routerLink="/anpatel/more/result" routerLinkActive="active">Results</a> 
+                                                <li><a routerLink="/more/result" routerLinkActive="active">Results</a>
                                                 </li>
                                                 <li>
-                                                    <a routerLink="/anpatel/basic/committee"
+                                                    <a routerLink="/basic/committee"
                                                         routerLinkActive="active">Committee</a>
                                                 </li>
                                                 <li class="menu-item-has-children">
@@ -292,10 +314,12 @@
                                                             <a href="#">Academic Calendar</a>
                                                         </li>
                                                         <li class="current-menu-item">
-                                                            <a routerLink="/anpatel/more/syllabus" routerLinkActive="active">Syllabus</a>
+                                                            <a routerLink="/more/syllabus"
+                                                                routerLinkActive="active">Syllabus</a>
                                                         </li>
                                                         <li class="menu-item-has-children current-menu-item">
-                                                            <a routerLink="/anpatel/more/paper" routerLinkActive="active">Old Question Papers</a>
+                                                            <a routerLink="/more/paper" routerLinkActive="active">Old
+                                                                Question Papers</a>
                                                         </li>
                                                         <li class="menu-item-has-children current-menu-item">
                                                             <a href="#">Scholarships for Students</a>
@@ -324,9 +348,9 @@
                     <!-- <img src="assets/images/CES_logo.png" alt=""> -->
                     <div class="row" style="background-color: #342424 ; height: 50px;">
                         <div class="col-lg-2 text-end mt-10">
-                            <a routerLink="/anpatel/home/main" routerLinkActive="active">
-                            <img src="assets/images/anpatel/logo/2.png" alt="" width="45%">
-                        </a>
+                            <a routerLink="/home/main" routerLinkActive="active">
+                                <img src="assets/images/logo/2.png" alt="" width="45%">
+                            </a>
                         </div>
                         <div class="col-lg-10 text-start" style="margin-top: 5px;">
                             <div class="rs-menu-area jc">
@@ -335,7 +359,7 @@
                                         <ul class="nav-menu">
 
                                             <li class="menu-item-has-children">
-                                                <a routerLink="/anpatel/home/main" routerLinkActive="active">Home</a>
+                                                <a routerLink="/home/main" routerLinkActive="active">Home</a>
                                                 <ul class="sub-menu">
                                                     <li><a routerLink="" routerLinkActive="active">CES Home</a>
                                                     </li>
@@ -344,9 +368,15 @@
                                             <li class="menu-item-has-children">
                                                 <a routerLink="" routerLinkActive="active">About Us</a>
                                                 <ul class="sub-menu">
-                                                    <li><a routerLink="/anpatel/basic/about" routerLinkActive="active">History</a>
+                                                    <li><a routerLink="/basic/about"
+                                                            routerLinkActive="active">History</a>
                                                     </li>
-                                                    <li><a routerLink="/anpatel/basic/trust" routerLinkActive="active">The Trust</a>
+                                                    <li>
+                                                        <a routerLink="/infra/facilities"
+                                                            routerLinkActive="active">Facilities & Activities</a>
+                                                    </li>
+                                                    <li><a routerLink="/basic/trust" routerLinkActive="active">The
+                                                            Trust</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -354,7 +384,8 @@
                                                 <a href="#">Gallery/Media</a>
 
                                                 <ul class="sub-menu">
-                                                    <li><a routerLink="/anpatel/gallery/photos" routerLinkActive="active">Photos</a> </li>
+                                                    <li><a routerLink="/gallery/photos"
+                                                            routerLinkActive="active">Photos</a> </li>
                                                     <!-- <li><a href="#">Photos</a> </li> -->
                                                     <li><a href="#">Documentary Film</a> </li>
                                                     <li><a href="#">Our Magazine Balmitra</a> </li>
@@ -362,26 +393,30 @@
                                             </li>
 
                                             <li class="menu-item">
-                                                <a routerLink="/anpatel/inf/infra" routerLinkActive="active">Infrastructure</a>
+                                                <a routerLink="/infra/facilities"
+                                                    routerLinkActive="active">Facilities & Activities</a>
                                             </li>
 
                                             <li class="menu-item-has-children">
                                                 <a href="">Course</a>
                                                 <ul class="sub-menu">
-                                                    <li><a routerLink="/anpatel/course/science" routerLinkActive="active">Science</a> </li>
-                                                    <li><a routerLink="/anpatel/course/para" routerLinkActive="active">Paramedical</a> </li>
+                                                    <li><a routerLink="/course/science"
+                                                            routerLinkActive="active">Science</a> </li>
+                                                    <li><a routerLink="/course/para"
+                                                            routerLinkActive="active">Paramedical</a> </li>
                                                 </ul>
                                             </li>
                                             <li class="">
-                                                <a routerLink="/anpatel/basic/contact" routerLinkActive="active">Contact Us</a>
+                                                <a routerLink="/basic/contact" routerLinkActive="active">Contact Us</a>
                                             </li>
                                             <li class="menu-item-has-children">
                                                 <a routerLink="" routerLinkActive="active">More</a>
                                                 <ul class="sub-menu">
                                                     <!-- <li><a routerLink="" routerLinkActive="active">Department</a> </li> -->
-                                                    <li><a routerLink="/anpatel/more/result" routerLinkActive="active">Results</a> </li>
+                                                    <li><a routerLink="/more/result"
+                                                            routerLinkActive="active">Results</a> </li>
                                                     <li>
-                                                        <a routerLink="/anpatel/basic/committee"
+                                                        <a routerLink="/basic/committee"
                                                             routerLinkActive="active">Committee</a>
                                                     </li>
                                                     <li class="menu-item-has-children">
@@ -391,10 +426,12 @@
                                                                 <a href="#">Academic Calendar</a>
                                                             </li>
                                                             <li class="current-menu-item">
-                                                                <a routerLink="/anpatel/more/syllabus" routerLinkActive="active">Syllabus</a>
+                                                                <a routerLink="/more/syllabus"
+                                                                    routerLinkActive="active">Syllabus</a>
                                                             </li>
                                                             <li class="menu-item-has-children current-menu-item">
-                                                                <a routerLink="/anpatel/more/paper" routerLinkActive="active">Old Question Papers</a>
+                                                                <a routerLink="/more/paper"
+                                                                    routerLinkActive="active">Old Question Papers</a>
                                                             </li>
                                                             <li class="menu-item-has-children current-menu-item">
                                                                 <a href="#">Scholarships for Students</a>
@@ -420,7 +457,7 @@
 
             <!-- stickymenu -->
         </div>
-       
+
         <!-- Modal: modalAbandonedCart-->
         <div class="modal fade right" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle1}">
             <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
@@ -432,7 +469,7 @@
                         </p>
                         <button type="button" class="close" (click)="closePopup()">
                             <span aria-hidden="true" class="white-text">&times;</span>
-                          </button>
+                        </button>
                     </div>
 
                     <!--Body-->
@@ -469,8 +506,9 @@
 
                     <div class="modal-footer justify-content-center">
                         <!-- <a type="button" class="btn btn-info">Go to cart</a> -->
-                        <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal" (click)="closePopup()">Cancel</a>
-                      </div>
+                        <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal"
+                            (click)="closePopup()">Cancel</a>
+                    </div>
                 </div>
                 <!--/.Content-->
             </div>
@@ -488,7 +526,7 @@
                         </p>
                         <button type="button" class="close" (click)="closePopup()">
                             <span aria-hidden="true" class="white-text">&times;</span>
-                          </button>
+                        </button>
                     </div>
 
                     <!--Body-->
@@ -524,8 +562,9 @@
 
                     <div class="modal-footer justify-content-center">
                         <!-- <a type="button" class="btn btn-info">Go to cart</a> -->
-                        <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal" (click)="closePopup()">Cancel</a>
-                      </div>
+                        <a type="button" class="btn btn-outline-info waves-effect" data-dismiss="modal"
+                            (click)="closePopup()">Cancel</a>
+                    </div>
                 </div>
                 <!--/.Content-->
             </div>

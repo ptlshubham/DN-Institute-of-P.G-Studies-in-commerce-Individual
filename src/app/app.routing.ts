@@ -19,6 +19,10 @@ export const AppRoutes: Routes = [
         path: 'basic',
         loadChildren: () => import('./basic/basic.module').then(m => m.BasicModule)
     },
+    {
+        path: 'infra',
+        loadChildren: () => import('./infrastructure/infrastructure.module').then(m => m.InfrastructureModule)
+    },
 
 
 ];
