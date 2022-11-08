@@ -10,11 +10,7 @@ export const AppRoutes: Routes = [
     {
         path: 'anpatel',
         loadChildren: () => import('./anpatel/anpatel.module').then(m => m.AnpatelModule)
-    },
-    {
-        path: 'mbpatel',
-        loadChildren: () => import('./mbpatel/mbpatel.module').then(m => m.MbpatelModule)
-    },
+    }
 
 
 ];
