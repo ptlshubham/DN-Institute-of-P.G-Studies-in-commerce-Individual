@@ -118,7 +118,7 @@
 }
 .home-community-board__grid-item {
     flex: 1 1 25%;
-    max-width: 20%;
+    max-width: 35%;
 }
 .home-community-board__grid-item {
     border-right: 1px solid #fff;

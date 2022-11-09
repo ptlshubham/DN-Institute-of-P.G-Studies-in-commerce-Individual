@@ -6,13 +6,15 @@ import { MoreRoutes } from './more.routing';
 import { SharedModule } from '../shared/shared.module';
 import { LibraryComponent } from './library/library.component';
 import { ResultComponent } from './result/result.component';
+import { CampusComponent } from './campus/campus.component';
 
 
 
 @NgModule({
   declarations: [
     LibraryComponent,
-    ResultComponent
+    ResultComponent,
+    CampusComponent
   ],
   imports: [
     CommonModule,
