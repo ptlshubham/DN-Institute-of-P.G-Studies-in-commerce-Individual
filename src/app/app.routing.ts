@@ -8,10 +8,6 @@ export const AppRoutes: Routes = [
         pathMatch: 'full',
     },
     {
-        path: 'anpatel',
-        loadChildren: () => import('./anpatel/anpatel.module').then(m => m.AnpatelModule)
-    },
-    {
         path: 'home',
         loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
     },
@@ -30,6 +26,14 @@ export const AppRoutes: Routes = [
     {
         path: 'gallery',
         loadChildren: () => import('./gallery/gallery.module').then(m => m.GalleryModule)
+    },
+    {
+        path: 'course',
+        loadChildren: () => import('./course/course.module').then(m => m.CourseModule)
+    },
+    {
+        path: 'more',
+        loadChildren: () => import('./more/more.module').then(m => m.MoreModule)
     },
 
 

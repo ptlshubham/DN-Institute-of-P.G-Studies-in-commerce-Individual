@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AnPapersComponent } from './an-papers.component';
+import { McomComponent } from './mcom.component';
 
-describe('AnPapersComponent', () => {
-  let component: AnPapersComponent;
-  let fixture: ComponentFixture<AnPapersComponent>;
+describe('McomComponent', () => {
+  let component: McomComponent;
+  let fixture: ComponentFixture<McomComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AnPapersComponent ]
+      declarations: [ McomComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AnPapersComponent);
+    fixture = TestBed.createComponent(McomComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BasicModule } from './basic/basic.module';
 import { InfrastructureModule } from './infrastructure/infrastructure.module';
 import { DepartmentModule } from './department/department.module';
+import { CourseModule } from './course/course.module';
+import { MoreModule } from './more/more.module';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { DepartmentModule } from './department/department.module';
     BrowserAnimationsModule,
     BasicModule,
     InfrastructureModule,
-    DepartmentModule
+    DepartmentModule,
+    CourseModule,
+    MoreModule
      
   ],
   providers: [],
