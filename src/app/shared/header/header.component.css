@@ -20,7 +20,7 @@ header.navbar-sticky-on,
   opacity: 1;
 }
 .modal-dialog.modal-notify.modal-info .modal-header {
-  background-color: #33b5e5;
+  background-color: #565656;
 }
 .modal-dialog .modal-content .modal-header {
   border-top-left-radius: 0.125rem;

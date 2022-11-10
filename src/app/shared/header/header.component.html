@@ -2,33 +2,43 @@
     <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
         <section class="servicesHome">
             <div class="container">
-
-
                 <div class="row card1">
                     <a data-toggle="collapse" data-bs-parent="#accordion" data-bs-toggle="collapse" href="#collapseTwo">
                         <i class="fa fa-times-circle" style="float: right; color: white; font-size:24px"></i></a>
+                        <h6 style="color: white;text-align: center;">View Course</h6>
                     <div class="col-md-3">
                         <div class="servicesHome-box">
                             <ul>
-                                <li><i class="fa fa-check-square"></i> <a class="white" routerLink="/academic/school"
-                                        routerLinkActive="active"> Preschool</a></li>
-                                <li><i class="fa fa-check-square"></i> Standard 11 to 12</li>
-                                <li><i class="fa fa-check-square"></i> B.Com.</li>
-                                <li><i class="fa fa-check-square"></i> B.Sc.</li>
-                                <li><i class="fa fa-check-square"></i> M.Ed.</li>
-                                <li><i class="fa fa-check-square"></i> Ph.D.</li>
+                                <li (click)="searchSchool('preschool')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i>Preschool</li>
+                                <li (click)="searchSchool('std11to12')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i>Standard 11 to 12</li>
+                                <li (click)="searchSchool('bcom')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> B.Com.</li>
+                                <li (click)="searchSchool('bsc')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> B.Sc.</li>
+                                <li (click)="searchSchool('med')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> M.Ed.</li>
+                                <li (click)="searchSchool('phd')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> Ph.D.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="servicesHome-box">
                             <ul style="color:white">
-                                <li><i class="fa fa-check-square"></i> Standard 1 to 5</li>
-                                <li><i class="fa fa-check-square"></i> B.A.</li>
-                                <li><i class="fa fa-check-square"></i> B.Ed.</li>
-                                <li><i class="fa fa-check-square"></i> MLT</li>
-                                <li><i class="fa fa-check-square"></i> M.S.W.</li>
-                                <li><i class="fa fa-check-square"></i> B.Sc. IT</li>
+                                <li (click)="searchSchool('std1to5')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> Standard 1 to 5</li>
+                                <li (click)="searchSchool('ba')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> B.A.</li>
+                                <li (click)="searchSchool('bed')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> B.Ed.</li>
+                                <li (click)="searchSchool('mlt')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> MLT</li>
+                                <li (click)="searchSchool('msw')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> M.S.W.</li>
+                                <li (click)="searchSchool('bscit')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> B.Sc. IT</li>
                             </ul>
                         </div>
                     </div>
@@ -36,23 +46,34 @@
                     <div class="col-md-3">
                         <div class="servicesHome-box">
                             <ul style="color:white">
-                                <li><i class="fa fa-check-square"></i> Standard 6 to 8</li>
-                                <li><i class="fa fa-check-square"></i> B.B.A.</li>
-                                <li><i class="fa fa-check-square"></i> B.P.Ed.</li>
-                                <li><i class="fa fa-check-square"></i> M.A.</li>
-                                <li><i class="fa fa-check-square"></i> M.Sc.</li>
-                                <li><i class="fa fa-check-square"></i> View All</li>
+                                <li (click)="searchSchool('std6to8')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> Standard 6 to 8</li>
+                                <li (click)="searchSchool('bba')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> B.B.A.</li>
+                                <li (click)="searchSchool('bped')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> B.P.Ed.</li>
+                                <li (click)="searchSchool('ma')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> M.A.</li>
+                                <li (click)="searchSchool('msc')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> M.Sc.</li>
+                                <li (click)="searchSchool('all')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> View All</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="servicesHome-box">
                             <ul style="color:white">
-                                <li><i class="fa fa-check-square"></i> Standard 9 to 10</li>
-                                <li><i class="fa fa-check-square"></i> B.C.A.</li>
-                                <li><i class="fa fa-check-square"></i> B.S.W.</li>
-                                <li><i class="fa fa-check-square"></i> M.Com.</li>
-                                <li><i class="fa fa-check-square"></i> P.T.C.</li>
+                                <li (click)="searchSchool('std9to10')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> Standard 9 to 10</li>
+                                <li (click)="searchSchool('bca')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> B.C.A.</li>
+                                <li (click)="searchSchool('bsw')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> B.S.W.</li>
+                                <li (click)="searchSchool('mcom')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> M.Com.</li>
+                                <li (click)="searchSchool('ptc')" data-bs-toggle="collapse" href="#collapseTwo"><i
+                                        class="fa fa-arrow-right"></i> P.T.C.</li>
                             </ul>
                         </div>
                     </div>
@@ -85,11 +106,11 @@
                     <div class="col-md-5 text-end">
                         <ul class="topbar-right">
                             <li class="login-register" style="font-size:12px !important;">
-                                <i class="fa fa-clock-o"></i>
+                                <i class="fa fa-clock-o" style="color: white;"></i>
                                 <a href="">Last Updated:27-june-2022</a>
                             </li>
                             <li class="login-register" style="font-size:12px !important;">
-                                <i class="fa fa-users"></i>
+                                <i class="fa fa-users" style="color: white;"></i>
                                 <a href="">Visitor:222500</a>
                             </li>
                         </ul>
@@ -128,19 +149,19 @@
                         </li>
 
                         <li class="menu-item lm">
-                            <a href="#">Centenary Celebration</a>
+                            <a href="http://www.cesociety.in/dnpg/Centenary.aspx">Centenary Celebration</a>
                         </li>
                         |
                         <li class="menu-item lm">
-                            <a href="#">News</a>
+                            <a (click)="openPopup3()">News</a>
                         </li>
                         |
                         <li class="menu-item lm">
-                            <a href="#">Birthday</a>
+                            <a (click)="openPopup4()">Birthday</a>
                         </li>
                         |
                         <li class="menu-item lm">
-                            <a href="#">Free counseling</a>
+                            <a href="http://www.cesociety.in/Campus-Counselling-Program.aspx">Free counseling</a>
                         </li>
                     </ul>
 
@@ -249,7 +270,7 @@
                                         <li class="menu-item-has-children">
                                             <a routerLink="/home/main" routerLinkActive="active">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a routerLink="" routerLinkActive="active">CES Home</a>
+                                                <li><a routerLinkActive="active">CES Home</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -282,7 +303,7 @@
                                             <a routerLink="" routerLinkActive="active">Department</a>
                                             <ul class="sub-menu">
                                                 <li class="menu-item-has-children">
-                                                    <a href="#">M.Com/PGDMM</a>
+                                                    <a>M.Com/PGDMM</a>
                                                     <ul class="sub-menu">
                                                         <li class="current-menu-item">
                                                             <a routerLink="/department/staff"
@@ -352,7 +373,7 @@
                                             <li class="menu-item-has-children">
                                                 <a routerLink="/home/main" routerLinkActive="active">Home</a>
                                                 <ul class="sub-menu">
-                                                    <li><a routerLink="" routerLinkActive="active">CES Home</a>
+                                                    <li><a routerLinkActive="active">CES Home</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -460,11 +481,13 @@
                             <div class="col-10">
                                 <ul style="list-style-type:decimal;">
                                     <li><a href="http://www.cesociety.in/dnpg/images/Forms/FILL-UP%20FORM.pdf"
-                                            target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> TC/Transcript/MOI/(Principal/Faculty)/ Bonafide Certificate
+                                            target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                            TC/Transcript/MOI/(Principal/Faculty)/ Bonafide Certificate
                                             Form
                                         </a> </li>
                                     <li><a href="http://www.cesociety.in/dnpg/images/Forms/admission%20form.pdf"
-                                            target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Admission Form</a> </li>
+                                            target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                                            Admission Form</a> </li>
                                 </ul>
                             </div>
                             <div class="col-3"></div>
@@ -546,6 +569,79 @@
             </div>
         </div>
         <!-- Modal: modalAbandonedCart-->
+        <!--Modal: modalRelatedContent-->
+        <div class="modal right" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle3}">
+            <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header">
+                        <p class="heading">TODAY'S NEWS / EVENTS</p>
+
+                        <button type="button" class="close" (click)="closePopup()">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </button>
+                    </div>
+
+                    <!--Body-->
+                    <div class="modal-body">
+
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-10">
+                               <h5>SHRI ALPESH N. PATEL POST GRADUATE INSTITUTE OF SCIENCE AND RESEARCH, ANAND</h5>
+
+                                <p><strong>UNIVERSITY TOPPERS OF M.SC. MLT AND DMLT DEPARTMENT</strong></p>
+                                <p><a href="assets/sanppgi/images/news/MLT%20Final%20RESULT%20with%20university%20rank%20%20IT%20CELL.pdf" target="_blank"> M.SC MT (CLT) & DMLT
+                                    RESULT (2020 – 22)</a></p>
+                                <button type="button" class="btn btn-info btn-md" (click)="closePopup()">Close</button>
+                            </div>
+
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Content-->
+            </div>
+        </div>
+        <!--Modal: modalRelatedContent-->
+         <!--Modal: modalRelatedContent-->
+         <div class="modal right" tabindex="-1" role="dialog" [ngStyle]="{'display':displayStyle4}">
+            <div class="modal-dialog modal-left modal-bottom-right modal-notify modal-info" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header">
+                        <p class="heading">BIRTHDAY</p>
+
+                        <button type="button" class="close" (click)="closePopup()">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </button>
+                    </div>
+
+                    <!--Body-->
+                    <div class="modal-body">
+
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-10">
+
+                                <p><strong>
+                                    DR. ZARNA PATEL (Assistant Professor At Shri Alpesh N. Patel Post Graduate Institute Of Science And Research, Anand)</strong></p>
+                                
+                                <button type="button" class="btn btn-info btn-md" (click)="closePopup()">Close</button>
+                            </div>
+
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Content-->
+            </div>
+        </div>
+        <!--Modal: modalRelatedContent-->
 
     </header>
 

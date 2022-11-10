@@ -17,7 +17,7 @@ export class LeftImageTextComponent implements OnInit {
   public subtitle: string = '';
   public asubtitle: string = 'Shri D N Institute of P G Studies in commerce';
   public tsubtitle: string = 'Charotar Education Society';
-  public dimg: string = 'assets/images/about/School.jpg';
+  dimg: string = 'assets/images/about/School_1.jpg';
   himg: string = 'assets/images/about/School.jpg';
   timg: string = 'assets/images/about/33.jpg';
   daimg: string = '';

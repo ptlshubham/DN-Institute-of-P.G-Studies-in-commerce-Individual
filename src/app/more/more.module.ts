@@ -7,6 +7,7 @@ import { SharedModule } from '../shared/shared.module';
 import { LibraryComponent } from './library/library.component';
 import { ResultComponent } from './result/result.component';
 import { CampusComponent } from './campus/campus.component';
+import { SearchComponent } from './search/search.component';
 
 
 
@@ -14,7 +15,8 @@ import { CampusComponent } from './campus/campus.component';
   declarations: [
     LibraryComponent,
     ResultComponent,
-    CampusComponent
+    CampusComponent,
+    SearchComponent
   ],
   imports: [
     CommonModule,
