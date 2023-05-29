@@ -10,6 +10,8 @@ import { RouterModule } from '@angular/router';
 import { BasicRoutes } from './basic.routing';
 import { HomeModule } from '../home/home.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { InfrastructureComponent } from './infrastructure/infrastructure.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -20,6 +22,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ContactComponent,
     GalleryComponent,
     TrustComponent,
+    InfrastructureComponent,
   ],
   imports: [
     CommonModule,
@@ -27,8 +30,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     RouterModule.forChild(BasicRoutes),
     HomeModule,
     FormsModule,
-    ReactiveFormsModule
-
+    ReactiveFormsModule,
+    NgbModule
   ]
 })
 export class BasicModule { }

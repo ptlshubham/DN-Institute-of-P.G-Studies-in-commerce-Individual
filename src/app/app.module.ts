@@ -7,7 +7,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BasicModule } from './basic/basic.module';
-import { InfrastructureModule } from './infrastructure/infrastructure.module';
 import { DepartmentModule } from './department/department.module';
 import { CourseModule } from './course/course.module';
 import { MoreModule } from './more/more.module';
@@ -29,7 +28,6 @@ import { ToastrModule } from 'ngx-toastr';
     CarouselModule,
     BrowserAnimationsModule,
     BasicModule,
-    InfrastructureModule,
     DepartmentModule,
     CourseModule,
     MoreModule,
