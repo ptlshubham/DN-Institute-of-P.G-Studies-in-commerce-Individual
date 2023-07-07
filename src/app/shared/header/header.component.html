@@ -5,7 +5,7 @@
                 <div class="row card1">
                     <a data-toggle="collapse" data-bs-parent="#accordion" data-bs-toggle="collapse" href="#collapseTwo">
                         <i class="fa fa-times-circle" style="float: right; color: white; font-size:24px"></i></a>
-                        <h6 style="color: white;text-align: center;">View Course</h6>
+                    <h6 style="color: white;text-align: center;">View Course</h6>
                     <div class="col-md-3">
                         <div class="servicesHome-box">
                             <ul>
@@ -155,7 +155,8 @@
                         </li>
                         | -->
                         <li class="menu-item lm">
-                            <a href="http://www.cesociety.in/#/counselling" target="_blank">Free Psychological Counseling</a>
+                            <a href="http://www.cesociety.in/#/counselling" target="_blank">Free Psychological
+                                Counseling</a>
                         </li>
                     </ul>
 
@@ -179,7 +180,8 @@
                         <a class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
                             aria-expanded="false" routerLink="/home" routerLinkActive="active">Home</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="http://www.cesociety.in/#/home/main" target="_blank">CES Home</a> </li>
+                            <li><a class="dropdown-item" href="http://www.cesociety.in/#/home/main" target="_blank">CES
+                                    Home</a> </li>
                         </ul>
                     </li>
                     <li class="btn-group">
@@ -199,28 +201,23 @@
                             aria-expanded="false">Gallery</a>
 
                         <ul class="dropdown-menu">
-                            <li><a routerLink="/gallery/photos" routerLinkActive="active">Photos</a>
+                            <li><a class="dropdown-item" routerLink="/gallery/photos"
+                                    routerLinkActive="active">Photos</a>
                             </li>
-                            <li><a routerLink="/more/magazine" routerLinkActive="active">Our
+                            <li><a class="dropdown-item" routerLink="/more/magazine" routerLinkActive="active">Our
                                     Magazine Balmitra</a> </li>
-                            <!-- <li><a class="dropdown-item">Photos</a> </li> -->
-                            <!-- <li><a class="dropdown-item">Documentary Film</a> </li>
-                            <li><a class="dropdown-item">Our Magazine Balmitra</a> </li> -->
                         </ul>
                     </li>
-                    
-                    <li class="btn-group">
-                        <a class="btn btn-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                            routerLink="/basic/infrastructure" routerLinkActive="active">Facilities & Activities</a>
-
-                    </li>
-
                     <li class="btn-group">
                         <a class="btn btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">Course</a>
+                            aria-expanded="false">Department</a>
+
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" routerLink="/course/mcom" routerLinkActive="active">M.Com</a>
+                            <li><a class="dropdown-item" routerLink="/department/staff" routerLinkActive="active">Staff
+                                    Details</a>
                             </li>
+                            <li><a class="dropdown-item" routerLink="/department/student" routerLinkActive="active">Student
+                                    Details</a> </li>
                         </ul>
                     </li>
                     <li class="btn-group">
@@ -233,8 +230,7 @@
                             aria-expanded="false">Student Corner</a>
                         <ul class="dropdown-menu">
                             <li class="dropdown-item">
-                                <a routerLink="/more/academic-calendar"
-                                    routerLinkActive="active">Academic Calendar</a>
+                                <a routerLink="/more/academic-calendar" routerLinkActive="active">Academic Calendar</a>
                             </li>
                             <li class="dropdown-item">
                                 <a (click)="openLinks('syllabus')">Syllabus</a>
@@ -244,10 +240,10 @@
                                     Question Papers</a>
                             </li>
                             <li class="dropdown-item">
-                                <a routerLink="/more/scholarship"
-                                    routerLinkActive="active">Scholarships for Students</a>
+                                <a routerLink="/more/scholarship" routerLinkActive="active">Scholarships for
+                                    Students</a>
                             </li>
-                           
+
                         </ul>
                     </li>
                     <li class="btn-group">
@@ -283,7 +279,9 @@
                                         <li class="menu-item-has-children">
                                             <a routerLink="/home" routerLinkActive="active">Home</a>
                                             <ul class="sub-menu">
-                                                <li><a routerLinkActive="active" href="http://www.cesociety.in/#/home/main" target="_blank">CES Home</a>
+                                                <li><a routerLinkActive="active"
+                                                        href="http://www.cesociety.in/#/home/main" target="_blank">CES
+                                                        Home</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -312,30 +310,17 @@
                                                 <li><a href="#">Our Magazine Balmitra</a> </li> -->
                                             </ul>
                                         </li>
-                                        
+
                                         <li class="menu-item-has-children">
                                             <a routerLink="" routerLinkActive="active">Department</a>
                                             <ul class="sub-menu">
-                                                <li class="menu-item-has-children">
-                                                    <a>M.Com/PGDMM</a>
-                                                    <ul class="sub-menu">
-                                                        <li class="current-menu-item">
-                                                            <a routerLink="/department/staff"
-                                                                routerLinkActive="active">Staff Details</a>
-                                                        </li>
-                                                        <li class="menu-item-has-children current-menu-item">
-                                                            <a routerLink="/department/student"
-                                                                routerLinkActive="active">Student Details</a>
-                                                        </li>
-                                                    </ul>
+                                                <li class="current-menu-item">
+                                                    <a routerLink="/department/staff" routerLinkActive="active">Staff
+                                                        Details</a>
                                                 </li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="">Course</a>
-                                            <ul class="sub-menu">
-                                                <li><a routerLink="/course/mcom" routerLinkActive="active">M.Com</a>
+                                                <li class="menu-item-has-children current-menu-item">
+                                                    <a routerLink="/department/student"
+                                                        routerLinkActive="active">Student Details</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -345,15 +330,9 @@
                                         <li class="menu-item-has-children">
                                             <a routerLink="" routerLinkActive="active">More</a>
                                             <ul class="sub-menu">
-                                                <!-- <li><a routerLink="" routerLinkActive="active">Department</a> </li> -->
-                                                <li><a routerLink="/more/result"
-                                                        routerLinkActive="active">Results</a>
+                                                <li><a routerLink="/more/result" routerLinkActive="active">Results</a>
                                                 </li>
                                                 <li><a routerLink="/more/news" routerLinkActive="active">News</a>
-                                                </li>
-                                                <li>
-                                                    <a routerLink="/basic/committee"
-                                                        routerLinkActive="active">Committee</a>
                                                 </li>
                                                 <li class="menu-item-has-children">
                                                     <a>Student Corner</a>
@@ -366,8 +345,7 @@
                                                             <a (click)="openLinks('syllabus')">Syllabus</a>
                                                         </li>
                                                         <li class="menu-item-has-children current-menu-item">
-                                                            <a routerLink="/more/paper"
-                                                                routerLinkActive="active">Old
+                                                            <a routerLink="/more/paper" routerLinkActive="active">Old
                                                                 Question Papers</a>
                                                         </li>
                                                         <li class="menu-item-has-children current-menu-item">
@@ -412,7 +390,9 @@
                                             <li class="menu-item-has-children">
                                                 <a routerLink="/home" routerLinkActive="active">Home</a>
                                                 <ul class="sub-menu">
-                                                    <li><a routerLinkActive="active" href="http://www.cesociety.in/#/home/main" target="_blank">CES Home</a>
+                                                    <li><a routerLinkActive="active"
+                                                            href="http://www.cesociety.in/#/home/main"
+                                                            target="_blank">CES Home</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -433,7 +413,8 @@
                                                 <a href="#">Gallery</a>
 
                                                 <ul class="sub-menu">
-                                                    <li><a routerLink="/gallery/photos" routerLinkActive="active">Photos</a>
+                                                    <li><a routerLink="/gallery/photos"
+                                                            routerLinkActive="active">Photos</a>
                                                     </li>
                                                     <li><a routerLink="/more/magazine" routerLinkActive="active">Our
                                                             Magazine Balmitra</a> </li>
@@ -442,30 +423,17 @@
                                                     <li><a href="#">Our Magazine Balmitra</a> </li> -->
                                                 </ul>
                                             </li>
-                                            
+
                                             <li class="menu-item-has-children">
                                                 <a routerLink="" routerLinkActive="active">Department</a>
                                                 <ul class="sub-menu">
-                                                    <li class="menu-item-has-children">
-                                                        <a href="#">M.Com/PGDMM</a>
-                                                        <ul class="sub-menu">
-                                                            <li class="current-menu-item">
-                                                                <a routerLink="/department/staff"
-                                                                    routerLinkActive="active">Staff Details</a>
-                                                            </li>
-                                                            <li class="menu-item-has-children current-menu-item">
-                                                                <a routerLink="/department/student"
-                                                                    routerLinkActive="active">Student Details</a>
-                                                            </li>
-                                                        </ul>
+                                                    <li class="current-menu-item">
+                                                        <a routerLink="/department/staff"
+                                                            routerLinkActive="active">Staff Details</a>
                                                     </li>
-                                                </ul>
-                                            </li>
-
-                                            <li class="menu-item-has-children">
-                                                <a href="">Course</a>
-                                                <ul class="sub-menu">
-                                                    <li><a routerLink="/course/mcom" routerLinkActive="active">M.Com</a>
+                                                    <li class="menu-item-has-children current-menu-item">
+                                                        <a routerLink="/department/student"
+                                                            routerLinkActive="active">Student Details</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -475,15 +443,10 @@
                                             <li class="menu-item-has-children">
                                                 <a routerLink="" routerLinkActive="active">More</a>
                                                 <ul class="sub-menu">
-                                                    <!-- <li><a routerLink="" routerLinkActive="active">Department</a> </li> -->
                                                     <li><a routerLink="/more/result"
                                                             routerLinkActive="active">Results</a>
                                                     </li>
                                                     <li><a routerLink="/more/news" routerLinkActive="active">News</a>
-                                                    </li>
-                                                    <li>
-                                                        <a routerLink="/basic/committee"
-                                                            routerLinkActive="active">Committee</a>
                                                     </li>
                                                     <li class="menu-item-has-children">
                                                         <a>Student Corner</a>
@@ -526,8 +489,8 @@
 
             <!-- stickymenu -->
         </div>
-         <!-- stickymenu -->
-         <ng-template #content let-c="close" let-d="dismiss">
+        <!-- stickymenu -->
+        <ng-template #content let-c="close" let-d="dismiss">
             <div class="modal-header">
                 <div class="icon-part" style="margin: 10px 20px 10px 20px !important;">
                     <img src="assets/images/cake.png" alt="">
@@ -549,7 +512,8 @@
                         <p style="text-align: center;"><strong>{{i+1}}</strong></p>
                     </div>
                     <div class="col-2">
-                        <img src="https://bapsanandmandir.co.in{{s.profile_image}}" class="img-thumbnail" alt="wedrfgthyuj" />
+                        <img src="https://bapsanandmandir.co.in{{s.profile_image}}" class="img-thumbnail"
+                            alt="wedrfgthyuj" />
                     </div>
                     <div class="col-5">
                         <p>
